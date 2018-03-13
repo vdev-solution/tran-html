@@ -120,8 +120,8 @@ p.vtp-download-phone-02{
 
 
 
-/* max-width 767px*/
-@media (max-width: 767px){
+/* max-width 991px*/
+@media (max-width: 991px){
   h2{
     font-size: 24px;
   }
