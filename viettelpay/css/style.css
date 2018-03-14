@@ -19,6 +19,7 @@
 a.nav-link{
   color: #383838 !important;
   font-weight: bold;
+  border-bottom: 4px solid white;
 }
 a.nav-link:hover{
   border-bottom: 4px solid #30667c;
@@ -37,12 +38,15 @@ a.nav-link:hover{
   font-weight: bold;
   text-decoration: none;
 }
+input.form-control{
+  text-align: center;
+}
 .form-control{
-  background: url("../images/placeholder_ico.png") no-repeat left center;
+  background: url("../images/placeholder_ico.png") no-repeat 5px center;
   background-color: #f2f2f2;
   border: none;
-  padding-right: 0;
-  padding-left: 1em;
+  width: 180px;
+padding: 10px 10px;
 
 }
 
@@ -59,6 +63,8 @@ a.nav-link:hover{
   color: white;
   margin-bottom: 30px;
 }
+
+
 .vtp-ud-info-01{
   color: #f38819;
   font-size: 24px;
@@ -83,6 +89,7 @@ a.vtp-more{
   padding: 10px 0;
   border-radius: 5px;
   margin-top: 20px;
+  border: 1px solid #f38819;
 }
 a.vtp-more:hover{
   background-color: white;
@@ -155,6 +162,27 @@ p.vtp-download-phone-02{
   }
   .ud-menu-custom{
     background: url("../images/border-right.png") no-repeat right center;
+  }
+  .dot-line{
+    position: relative;
+  }
+  .dot-img{
+    display: block;
+    background: url("../images/dot_ico.png");
+    text-align: center;
+    margin: auto;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 20px;
+
+  }
+  .line-background{
+    background-color: #f38819;
+    height: 5px;
+    width: 70%;
+    position: absolute;
+    margin-top: 0.8%;
+    margin-left: 15%;
   }
 }
 @media (min-width: 992px){
