@@ -49,6 +49,25 @@ input.form-control{
 padding: 10px 10px;
 
 }
+/* img slide*/
+.slide-btn-01, .slide-btn-02 {
+  display: none;
+}
+.img-slide-dot{
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+.slide-dot{
+  width: 12px;
+  height: 12px;
+  background-color: #e1e1e1;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+
 
 .udvtp{
   padding-top: 30px;
@@ -151,6 +170,51 @@ p.vtp-download-phone-02{
 }
 /* min-width 1024px*/
 @media (min-width: 1025px){
+  .img-slide-01{
+    position: relative;
+  }
+  .slide-btn-01, .slide-btn-02 {
+    display: block;
+  }
+  .slide-btn-01{
+    position: absolute;
+    background-color: #30667c;
+    width: 13%;
+    left: 19%;
+    top: 52%;
+    padding: 10px 10px;
+    text-align: center;
+    border: 2px solid #30667c;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  .slide-btn-01:hover{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #30667c;
+    color: #30667c;
+  }
+  .slide-btn-02{
+    position: absolute;
+    background-color: white;
+    width: 13%;
+    left: 33%;
+    top: 52%;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid grey;
+
+    color: #30667c;
+    text-decoration: none;
+  }
+  .slide-btn-02:hover{
+    text-decoration: none;
+    background-color: grey;
+    border: 2px solid grey;
+    color: white;
+  }
   .udvtp-border{
     box-shadow: 5px 0px 10px #397993;
     background-color: rgba(33, 79, 97, 0.9);
@@ -184,6 +248,7 @@ p.vtp-download-phone-02{
     margin-top: 0.8%;
     margin-left: 15%;
   }
+
 }
 @media (min-width: 992px){
   .col-lg-auto{
