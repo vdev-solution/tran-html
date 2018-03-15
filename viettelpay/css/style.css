@@ -603,10 +603,10 @@ ul.vtp-hoidap-ul{
   .line-background{
     background-color: #f38819;
     height: 5px;
-    width: 62%;
+    width: 70%;
     position: absolute;
     margin-top: 0.8%;
-    margin-left: 19%;
+    margin-left: 15%;
   }
   .vtp-dadang-desktop{
     margin: auto;
@@ -688,7 +688,7 @@ ul.vtp-hoidap-ul{
   .vtp-naptien-custom-col{
     background: url("../images/border_right_02.png") no-repeat right center;
   }
-  .col-lg-4{
+  .vtp-tkm-custom{
     max-width: 320px;
   }
 
