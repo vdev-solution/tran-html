@@ -515,6 +515,7 @@ ul.vtp-hoidap-ul{
 /*Trang tin tuc */
 .pagett{
   background-color: #e8e8e8;
+  padding-bottom: 20px;
 }
 .trangtintuc{
   background-color: white;
@@ -589,6 +590,44 @@ ul.vtp-hoidap-ul{
   background: white;
   border: 1px solid #30667c;
   text-decoration: none;
+}
+/*Dang ky nhan tin */
+.pagettsub{
+
+  border-top: 5px solid #2a5364;
+  padding-top: 10px;
+  border-bottom: 3px solid #e8e8e8;
+}
+.pagett-p-dangky{
+  font-weight: bold;
+  background: url(../images/tt_ico01.png) no-repeat left center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+.ttpage-input{
+  width: 200px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+}
+input.ttpage-input::placeholder{
+  font-size: 12px;
+}
+.ttpage-btn{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #30667c;
+  background-color: #30667c;
+  color: white;
+  border-radius: 3px;
+
 }
 /* max-width 991px*/
 @media (max-width: 991px){
@@ -824,6 +863,14 @@ ul.vtp-hoidap-ul{
       min-height: 60px;
       padding-top: 15px;
     }
+    /*Dang ky nhan tin*/
 
+
+    .pagett-p-dangky{
+      float: left;
+    }
+    .pagett-form{
+      float: left;
+    }
 
  }
