@@ -74,6 +74,7 @@ padding: 10px 10px;
 .udvtp{
   padding-top: 30px;
   background: url("../images/ud_bg_img01.jpg");
+  background-size: cover;
   padding-bottom: 30px;
 }
 .h2-custom{
@@ -188,6 +189,7 @@ a.vtp-nt-more:hover{
 /*da dang tien ich */
 .vtp-dadang{
   background: url("../images/bg_img03.jpg");
+  background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -400,6 +402,7 @@ ul.vtp-hoidap-ul{
 }
 .vtp-lienhe-bg{
   background: url("../images/bg_img04.jpg");
+  background-size: cover;
   padding-bottom: 40px;
   padding-top: 30px;
 }
