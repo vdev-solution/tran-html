@@ -1,3 +1,9 @@
+/* reset p */
+p{
+  padding: 0 0;
+  margin: 0 0;
+}
+
 .container-fluid{
   font-family: 'Open Sans', sans-serif;
   padding-left: 0 !important;
@@ -506,8 +512,84 @@ ul.vtp-hoidap-ul{
 .vtp-footer-text-03{
 
 }
+/*Trang tin tuc */
+.pagett{
+  background-color: #e8e8e8;
+}
+.trangtintuc{
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.ttpcustom{
+  margin-bottom: 20px;
+}
+.ttpost-custom-left{
+  padding: 0 0;
+
+  margin-bottom: 10px;
 
 
+}
+.ttpost-custom-right{
+  padding: 0 0;
+  margin-bottom: 10px;
+
+}
+.ttcustomdesktopl{
+  border: 1px solid #e1e1e1;
+}
+.ttcustomdesktopr{
+  border: 1px solid #e1e1e1;
+}
+.tt-img{
+  width: 100%;
+  height: auto;
+}
+.tt-fa{
+  font-size: 16px;
+  color: #30667c;
+}
+.tttitlemain{
+  font-weight: bold;
+  padding-left: 5px;
+}
+.tttitlecontent{
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.tttitle{
+  padding: 0 0;
+}
+.ttdate{
+  padding: 0 0;
+  text-align: center;
+}
+.ttdate01{
+  color: #30667c;
+  font-weight: bold;
+}
+.ttlink{
+  padding: 0 0;
+  margin: 0 0;
+  background-color: #30667c;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  color: white;
+  border: 1px solid #30667c;
+}
+.ttlink:hover{
+  color:#30667c;
+  background: white;
+  border: 1px solid #30667c;
+  text-decoration: none;
+}
 /* max-width 991px*/
 @media (max-width: 991px){
   h2{
@@ -696,3 +778,52 @@ ul.vtp-hoidap-ul{
   }
 
 }
+
+@media (min-width: 1200px) {
+  .pagett{
+    padding-top: 20px;
+  }
+  .ttcustomdesktopl{
+    margin-right: 10px;
+  }
+  .ttcustomdesktopr{
+    margin-left: 10px;
+  }
+  .ttpost-custom-left{
+
+
+  }
+  .ttpost-custom-right{
+
+
+  }
+  .tttitle{
+    width: 80%;
+    float: right;
+    display: block;
+
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .ttdate{
+    width: 20%;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .clearfixx{
+    clear: both;
+  }
+  .ttbox1{
+    min-height: 60px;
+    padding-top: 5px;
+    border-right: 1px solid #e1e1e1;}
+    .ttlink{
+      min-height: 60px;
+      padding-top: 15px;
+    }
+
+
+ }
