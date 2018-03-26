@@ -58,6 +58,9 @@ padding: 10px 10px;
 
 }
 /* img slide*/
+.img-slide-01{
+  display: none;
+}
 .slide-btn-01, .slide-btn-02 {
   display: none;
 }
@@ -67,12 +70,19 @@ padding: 10px 10px;
   bottom: 20px;
 }
 .slide-dot{
+  cursor: pointer;
   width: 12px;
   height: 12px;
   background-color: #e1e1e1;
   display: inline-block;
   border-radius: 50%;
   margin-right: 3px;
+}
+.slide-dot:hover{
+  background-color: grey;
+}
+.dot-active{
+  background-color: grey;
 }
 
 

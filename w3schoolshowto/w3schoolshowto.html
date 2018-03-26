@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="w3-accordion">
+      <h2 class="w3-accordion-h2">Accordion</h2>
+      <button class="accordion">Section 1</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      </div>
+      <button class="accordion">Section 2</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      </div>
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      </div>
+
+
+    </div> <!-- end w3-accordion -->
+
+      <h2 class="w3-tab-h2">Tabs</h2>
+        <div class="main-tab">
+          <button class="tabtitle" onclick="tabsClick('london')">London</button>
+          <button class="tabtitle" onclick="tabsClick('paris')">Paris</button>
+          <button class="tabtitle" onclick="tabsClick('tokyo')">Tokyo</button>
+        </div>
+        <div id="london" class="tabcontent">
+          <p>London</p>
+          <p>London is the capital city of England.</p>
+        </div>
+        <div id="paris" class="tabcontent">
+          <p>Paris</p>
+          <p>Paris is the capital of France.</p>
+        </div>
+        <div id="tokyo" class="tabcontent">
+          <p>Tokyo</p>
+          <p>Tokyo is the capital of Japan.</p>
+        </div>
+<!-- end tab -->
+<script src="javascript/main.js" charset="utf-8"></script>
+  </body>
+</html>
