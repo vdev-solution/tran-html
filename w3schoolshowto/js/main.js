@@ -34,3 +34,14 @@ function tabsClick(val){
   document.getElementById(val).style.display = "block";
   event.currentTarget.className += " tab-active";
 };
+
+
+//Top nav responsive
+function topNavRespon (){
+  var topNav = document.getElementById("top-nav-02-id");
+  if (topNav.className ==="top-nav-02"){
+    topNav.className += " top-responsive";
+  } else {
+    topNav.className = "top-nav-02";
+  }
+}
