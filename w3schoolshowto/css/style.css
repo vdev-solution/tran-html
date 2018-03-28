@@ -110,6 +110,83 @@
   display: none;
 }
 
+
+
+
+/*side nav*/
+.side-nav-left{
+  transition: 0.5s;
+  width: 0;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #d9d9d9;
+}
+.side-nav-01{
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+
+}
+.side-nav-01 li a{
+  display: block;
+  padding: 20px 20px;
+  background-color: #d9d9d9;
+  color: white;
+  text-decoration: none;
+
+}
+.side-nav-01 li a:hover{
+  text-decoration: none;
+  background-color: #e3e3e3;
+  color: #000;
+}
+.side-nav-01 .sidebutton{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.side-open-button{
+  cursor: pointer;
+}
+/*full side nav */
+.full-side-nav{
+  position: fixed;
+  width: 0;
+  height:100%;
+  text-align: center;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  padding-top: 20%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.full-side-nav-01{
+  list-style-type: none;
+  padding: 0;
+}
+.full-side-nav-01 li a{
+  text-decoration: none;
+  color: #e3e3e3;
+  font-size: 30px;
+  background-color: red;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+.full-side-nav-01 li a:hover{
+  text-decoration: none;
+  color: grey;
+}
+.full-side-nav-01 li.full-side-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 @media (max-width: 600px) {
   .top-nav-02 li:not(:first-child){
     display: none;

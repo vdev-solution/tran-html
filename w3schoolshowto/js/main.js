@@ -45,3 +45,23 @@ function topNavRespon (){
     topNav.className = "top-nav-02";
   }
 }
+//Side Navigation
+function sideNav(){
+  var sideLeft = document.getElementById("side-01");
+  console.log(sideLeft.style.width);
+  if (sideLeft.style.width){
+    console.log("true" + sideLeft.style.width);
+    sideLeft.style.width = null;
+  } else {
+    sideLeft.style.width = "250px";
+  }
+}
+//ful side Nav
+function fullSideNav(){
+  var fullSideLeft = document.getElementById("full-side-nav-left");
+  if (fullSideLeft.style.width){
+    fullSideLeft.style.width = null;
+  } else {
+    fullSideLeft.style.width = "100%";
+  }
+}
