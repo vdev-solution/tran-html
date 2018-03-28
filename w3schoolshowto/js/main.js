@@ -54,6 +54,7 @@ function sideNav(){
     sideLeft.style.width = null;
   } else {
     sideLeft.style.width = "250px";
+
   }
 }
 //ful side Nav
@@ -64,4 +65,28 @@ function fullSideNav(){
   } else {
     fullSideLeft.style.width = "100%";
   }
+}
+//sticky Nav
+var stickyTopNav = document.getElementById("top-nav-02-id");
+var stickyOffset = stickyTopNav.offsetTop;
+function stickyNav(){
+  if(window.pageYOffset >= stickyOffset){
+    stickyTopNav.classList.add("sticky-nav");
+  }else{
+    stickyTopNav.classList.remove("sticky-nav");
+  }
+}
+var hideNav = window.pageYOffset;
+function hideNavTop(){
+  var currentWindowScroll = window.pageYOffset;
+  if (currentWindowScroll > hideNav){
+    document.getElementById("hide-nav-01").style.top = "-125px";
+  }else{
+    document.getElementById("hide-nav-01").style.top = "0";
+  }
+  hideNav = currentWindowScroll;
+}
+window.onscroll = function(){
+  stickyNav();
+  hideNavTop();
 }

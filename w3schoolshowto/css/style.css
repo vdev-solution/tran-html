@@ -1,4 +1,7 @@
 * {box-sizing:border-box}
+.w3-accordion{
+  margin-top: 125px;
+}
 .accordion{
   background-color:#e6e6e6;
   width: 100%;
@@ -68,6 +71,7 @@
   list-style-type: none;
   padding: 0;
   background-color: grey;
+  margin: 0;
 }
 .top-nav-01 li{
   display: inline-block;
@@ -90,6 +94,7 @@
 .top-nav-02{
   list-style-type: none;
   padding: 0;
+  margin: 0;
   background-color: grey;
 }
 .top-nav-02 li{
@@ -186,6 +191,28 @@
   top: 0;
   right: 0;
 }
+.height-1000{
+  min-height: 3000px;
+  display: block;
+
+}
+.full-side-click{
+  cursor: pointer;
+}
+/*Sticky nav*/
+.sticky-nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*Hide nav*/
+.hide-nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  transition: top 0.5s;
+}
+
 
 @media (max-width: 600px) {
   .top-nav-02 li:not(:first-child){
