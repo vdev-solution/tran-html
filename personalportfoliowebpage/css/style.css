@@ -10,6 +10,10 @@
   box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.75);
 
 }
+.navfixed{
+  position: fixed;
+  width: 100%;
+}
 .center-page{
   width: 1170px;
   margin: auto;
@@ -28,6 +32,7 @@
   float: right;
   list-style-type: none;
   margin-top: 5px;
+  margin-right: 10px;
 }
 .navtopmenu ul li{
   display: inline-block;
@@ -39,9 +44,14 @@
   padding: 10px 20px;
   color: #e3e3e3;
 }
-.navtopmenu ul li a:hover{
+.a-active{
   background-color: white;
-  color: grey;
+}
+.a-active:hover{
+  box-shadow: none;
+}
+.navtopmenu ul li a:hover{
+  box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.75);
 }
 
 
@@ -49,7 +59,7 @@
 #about{
   background-color: #A9A9A9;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 180px;
   padding-left: 60px;
   padding-bottom: 60px;
 }
@@ -199,6 +209,9 @@
   float: left;
   text-align: center;
   color: white;
+}
+.more-left a{
+  text-decoration: none;
 }
 .more-right{
   width: 50%;
