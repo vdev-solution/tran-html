@@ -29,3 +29,11 @@ window.onscroll = function(){
     navMenu[2].className = navMenu[2].className.replace(" a-active","");
   }
 }
+function navtopmenuBtn(){
+  var btnNav = document.getElementById("exmenu");
+  if(btnNav.style.display == "none"){
+    btnNav.style.display = "block";
+  } else {
+    btnNav.style.display = "none";
+  }
+}

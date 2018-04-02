@@ -16,13 +16,14 @@
 }
 .navtopmenu{
   width: 100%;
-  overflow: hidden;
   padding: 15px 0;
+  position: relative;
 }
 .navtopmenu img {
   width: 45px;
   height: auto;
   float: left;
+  margin-left: 10px;
 }
 .navtopmenu ul {
   float: right;
@@ -244,7 +245,9 @@
   color: white;
   font-size: 20px;
 }
-
+.navrespon-btn{
+  display: none;
+}
 
 @media (min-width: 1200px) {
   .center-page{
@@ -253,6 +256,30 @@
   }
 }
 @media (max-width: 1199.98px) {
+  .navrespon{
+    display: none;
+    float: none !important;
+    padding: 0;
+    margin: 10px 0 !important;
+  }
+  .navtopmenu img{
+    float: none;
+    display: block;
+  }
+  .navrespon li{
+    display: block !important;
+  }
+  .navrespon-btn{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
   #about{
     padding-left: 0;
   }
