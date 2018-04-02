@@ -46,6 +46,7 @@
 }
 .a-active{
   background-color: white;
+  color: #565656 !important;
 }
 .a-active:hover{
   box-shadow: none;
