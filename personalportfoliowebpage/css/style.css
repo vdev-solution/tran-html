@@ -94,6 +94,7 @@
   padding-top: 100px;
   overflow: hidden;
   text-align: center;
+  padding-bottom: 50px;
 }
 .portfolio-line{
   background-color: #878787;
@@ -125,4 +126,111 @@
   height: auto;
   margin-bottom: 15px;
   margin-left: 20px;
+}
+
+#contact{
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #EDEDEE;
+  color: #878787;
+  border-top: 1px solid #878787;;
+}
+#contact h2{
+  text-transform: uppercase;
+}
+.contact-line{
+  display: block;
+  height: 5px;
+  width: 60%;
+  background-color: #878787;
+  margin: 30px auto;
+}
+.contact-content{
+  overflow: hidden;
+}
+.ct-content-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.ct-content-right{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.ct-content-left input{
+  width: 70%;
+  background-color: #EDEDEE;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #878787;
+  padding: 10px 0;
+  margin: 10px 30px;
+  font-size: 30px;
+}
+.ct-content-left textarea{
+  width: 70%;
+  height: 200px;
+  overflow: auto;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #878787;
+  background-color: #ededee;
+  margin: 10px 30px;
+}
+.ct-content-left button{
+  margin: 10px 30px;
+  font-size: 25px;
+  color: #878787;
+}
+.ct-content-right p{
+  font-size: 24px;
+  margin: 20px 10px;
+}
+#moreinfo{
+  background-color: #A9A9A9;
+  overflow: hidden;
+  padding: 30px 0;
+  font-size: 24px;
+}
+.more-left{
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.more-right{
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.more-left h3{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.more-right h3{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.more-right span{
+  font-size: 30px;
+}
+.social-icon{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px 10px;
+  margin: 5px 5px;
+}
+.social-icon:hover{
+  background-color: white;
+  color:#702671;
+}
+#footer{
+  background-color: #702671;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
