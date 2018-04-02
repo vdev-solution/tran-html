@@ -212,7 +212,24 @@
   width: 100%;
   transition: top 0.5s;
 }
+/*Hover dropdown*/
+.hover-dropdown{
 
+}
+.hover-dropdown ul{
+  list-style-type: none;
+  padding: 0;
+}
+.hover-main{
+  position: relative;
+}
+.hover-01{
+  position: absolute;
+  display: none;
+}
+.hover-main:hover .hover-01{
+  display: block;
+}
 
 @media (max-width: 600px) {
   .top-nav-02 li:not(:first-child){
