@@ -14,10 +14,6 @@
   position: fixed;
   width: 100%;
 }
-.center-page{
-  width: 1170px;
-  margin: auto;
-}
 .navtopmenu{
   width: 100%;
   overflow: hidden;
@@ -247,4 +243,57 @@
   text-align: center;
   color: white;
   font-size: 20px;
+}
+
+
+@media (min-width: 1200px) {
+  .center-page{
+    width: 1170px;
+    margin: auto;
+  }
+}
+@media (max-width: 1199.98px) {
+  #about{
+    padding-left: 0;
+  }
+  .about-left{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    float: none;
+  }
+  .about-line{
+    float: none;
+  }
+  .about-right{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    float: none;
+  }
+  .portfolio-img-left{
+    float: none;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .portfolio-img-right{
+    float: none;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  .portfolio-img-left img,.portfolio-img-right img{
+    margin: 20px 0;
+  }
+  .ct-content-left,.ct-content-right{
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+  .more-left,.more-right{
+    width: 80%;
+    float: none;
+    margin: 20px auto;
+  }
 }
