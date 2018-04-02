@@ -88,24 +88,41 @@
 
 
 #portfolio{
-  background-color: white;
+  background-color: #EDEDEE;
   color: #878787;
   text-transform: uppercase;
   padding-top: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+.portfolio-line{
+  background-color: #878787;
+  width: 40%;
+  margin: auto;
+  height: 5px;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .portfolio-img-left{
   width: 50%;
   float: left;
+  text-align: right;
 }
 .portfolio-img-right{
   width: 50%;
   float: left;
+  text-align: left;
 }
 .portfolio-img-left img{
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-bottom: 15px;
+  margin-right: 20px;
 }
 .portfolio-img-right img{
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-bottom: 15px;
+  margin-left: 20px;
 }
