@@ -8,6 +8,7 @@ var navMenu = document.getElementsByClassName("navmenu01");
 console.log(navMenu);
 
 window.onscroll = function(){
+  scrollToTop();
   var currentOffset = window.pageYOffset;
   console.log(currentOffset);
   if(currentOffset>=aboutOffsetTop && currentOffset<portfolioOffsetTop){
@@ -35,5 +36,16 @@ function navtopmenuBtn(){
     btnNav.style.display = "block";
   } else {
     btnNav.style.display = "none";
+  }
+}
+function toTop(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+function scrollToTop(){
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
+    document.getElementById("btn-top").style.display = "block";
+  } else {
+    document.getElementById("btn-top").style.display = "none";
   }
 }
