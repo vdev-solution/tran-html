@@ -1,0 +1,125 @@
+.header-logo{
+  background-color: #99182D;
+  height: 200px;
+  display: block;
+}
+.header-menu{
+  background-color: #B01B34;
+
+}
+.header-menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+.header-menu ul li{
+  display: inline-block;
+
+}
+.header-menu ul li a{
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+.header-menu ul li a:hover{
+  background-color: #99182D;
+}
+
+.menu-bar ul{
+  padding: 0;
+  list-style-type: none;
+}
+.menu-bar p{
+  background-color: #384646;
+  color:white;
+  padding: 5px 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.menu-bar p:hover{
+  background-color: #99182D;
+
+}
+.menu-bar ul li {
+  margin: 5px 0;
+}
+.menu-bar ul li a{
+  background-color: #384646;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+.menu-bar ul li a:hover{
+  background-color: #99182D;
+}
+
+
+.live-score{
+  background-color: #B01B34;
+  padding: 5px 5px;
+  color: white;
+}
+.match-info table{
+  width: 100%;
+  margin-top: 10px;
+}
+.match-info table thead{
+  background-color: #384646;
+  color: white;
+  border-bottom: 3px solid #d9d9d9;
+}
+.match-info table thead tr{
+
+}
+.match-info table thead tr th{
+
+  padding: 5px 5px;
+}
+.match-info table thead tr th a{
+  text-decoration: none;
+  color: white;
+  background-color: #B01B34;
+}
+.match-info table thead tr th i{
+  background-color: #B01B34;
+  padding: 2px 2px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.match-info table thead tr th i:hover{
+  background-color: #99182D;
+}
+.match-info table tbody tr{
+  border-top: 1px solid #e7e7e7;
+}
+.match-info table tbody tr td{
+  padding: 10px 0;
+  font-size: 14px;
+}
+.match-info table tbody tr td.highlight{
+  color: #99182D;
+}
+.match-info table tbody tr td i{
+  cursor: pointer;
+  background-color: #B01B34;
+  padding: 2px 2px;
+  color: white;
+}
+.match-info table tbody tr td i:hover{
+  background-color: #99182D;
+}
+
+.bxh{
+
+}
+.bxh p{
+  background-color: #99182D;
+  text-align: center;
+  padding: 5px 0;
+}
+.bxh table{
+
+}
