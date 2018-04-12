@@ -27,11 +27,11 @@
           </ul>
         </div>
       </div><!-- end menu-->
-      <div class="container px-0">
-        <div class="row">
+      <div class="main-container px-0">
+        <div class="row mx-0">
           <div class="menu-bar col-lg-2 px-0 mx-0">
-            <p>giải đấu yêu thích</p>
-            <ul>
+            <p class="menu-bar-title-01">giải đấu yêu thích</p>
+            <ul class="menu-bar-ul-01">
               <li><a href="">European Championship</a></li>
               <li><a href="">European Championship</a></li>
               <li><a href="">European Championship</a></li>
@@ -42,8 +42,8 @@
               <li><a href="">European Championship</a></li>
               <li><a href="">European Championship</a></li>
             </ul>
-            <p>các giải đấu khác</p>
-            <ul>
+            <p class="menu-bar-title-02">các giải đấu khác</p>
+            <ul class="menu-bar-ul-02">
               <li><a href="">European Championship</a></li>
               <li><a href="">European Championship</a></li>
               <li><a href="">European Championship</a></li>
@@ -54,14 +54,14 @@
               <li><a href="">European Championship</a></li>
             </ul>
           </div><!-- end menu bar -->
-          <div class="col-12 col-sm-12 col-md-12 col-lg-10 main-content">
+          <div class="col-lg-10 main-content pr-0 mr-0">
             <div class="live-score">
               <span>Live score</span>
             </div>
             <div class="match-info">
               <table class="text-center">
                 <thead>
-                  <tr>
+                  <tr class="main-tr">
                     <th class="text-left" colspan="3">
                       <img src="images/at.png" alt="">
                       Argentina - Superliga
@@ -70,7 +70,7 @@
                     <th>Hiệp 1</th>
                     <th>Trạng thái</th>
                     <th>Tỷ lệ</th>
-                    <th class="text-right">
+                    <th class="text-right d-none d-lg-block">
                       <span>
                         <a href="#">
                           <i class="fa fa-bar-chart"></i>
@@ -78,9 +78,69 @@
 
                       </span>
                       <span>
-                        <i class="fa fa-list-ul"></i>
+                        <i class="fa fa-list-ul bxh-icon"></i>
                       </span>
                     </th>
+                  </tr>
+                </thead>
+                <thead>
+                  <tr>
+                    <td colspan="100%">
+                      <div class="row d-lg-none">
+                        <div class="col-6 col-sm-6 col-md-6 ico-thead-full">
+                          Thống kê
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 ico-thead-full">
+                          Bảng xếp hạng
+                        </div>
+                      </div>
+                      <div class="bxh-full">
+                      <div class="row bxh-table-head">
+                        <div class="col-12 col-sm-12 col-md-12 text-center">
+                          <span>Bảng xếp hạng</span>
+                        </div>
+                      </div>
+                      <div class="">
+                        <table class="bxh-table">
+                          <thead>
+                            <tr class="main-tr">
+                              <th>VT</th>
+                              <th>Đội</th>
+                              <th>Số trận</th>
+                              <th>T</th>
+                              <th>H</th>
+                              <th>B</th>
+                              <th>BT</th>
+                              <th>BB</th>
+                              <th>HS</th>
+                              <th>Điểm</th>
+                            </tr>
+                          </thead>
+                          <tbody class="sub-tbody">
+                            <tr class="sub-tr">
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="btn-hide">
+                        <span>^</span>
+                      </div>
+                    </div>
+                    </td>
                   </tr>
                 </thead>
                 <tbody>
@@ -92,7 +152,7 @@
                     <td>1:0</td>
                     <td>Kết thúc</td>
                     <td class="highlight">5/4</td>
-                    <td class="text-right">
+                    <td class="text-right d-none d-lg-block">
                       <span>
                       <i class="fa fa-th"></i>
                       <i class="fa fa-list-ul"></i>
@@ -101,48 +161,272 @@
                     </span>
                     </td>
                   </tr>
+                  <tr>
+
+                    <td colspan="100%">
+                      <div class="row bxh-table-head">
+                        <div class="col-12 col-sm-12 col-md-12 text-center">
+                          Bảng xếp hạng
+                        </div>
+                      </div>
+                      <div class="">
+                        <table class="bxh-table">
+                          <thead>
+                            <tr class="main-tr">
+                              <th>VT</th>
+                              <th>Đội</th>
+                              <th>Số trận</th>
+                              <th>T</th>
+                              <th>H</th>
+                              <th>B</th>
+                              <th>BT</th>
+                              <th>BB</th>
+                              <th>HS</th>
+                              <th>Điểm</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>
+                                <img src="images/6910.png" alt=""><span>
+                                  AL-Ahly Cairo
+                                </span>
+                              </td>
+                              <td>30</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                              <td>3</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="100%">
+                      <div class="row bxh-table-head">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                          <span>Danh sach thi dau</span>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 pl-0 pr-2 text-left">
+                            <span class="lineup-title-name">Wolves (3-4-3)</span>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text-center">1.</td>
+                                  <td class="text-left">John Ruddy</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 pl-2 pr-0 text-right">
+                            <span class="lineup-title-name">Wolves (3-4-3)</span>
+                            <table>
+                              <tbody>
+                                <tr class="px-2">
+                                  <td class="text-right">John Ruddy</td>
+                                  <td class="text-center">1.</td>
+
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 px-0">
+                          <span class="lineup-title-name">Du bi</span>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 pl-0 pr-2 text-left">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="text-center">1.</td>
+                                  <td class="text-left">John Ruddy</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 pl-2 pr-0 text-right">
+                            <table>
+                              <tbody>
+                                <tr class="px-2">
+                                  <td class="text-right">John Ruddy</td>
+                                  <td class="text-center">1.</td>
+
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center bxh-table-head">
+                          <span>^</span>
+                        </div>
+                      </div>
+
+                    </td>
+                  </tr>
 
                 </tbody>
               </table>
-              <div class="bxh">
-                <p>Bảng xếp hạng</p>
-                <table class="text-center">
-                  <thead>
-                    <tr>
-                      <th>VT</th>
-                      <th>Đội</th>
-                      <th>Số trận</th>
-                      <th>T</th>
-                      <th>H</th>
-                      <th>B</th>
-                      <th>BT</th>
-                      <th>BB</th>
-                      <th>HS</th>
-                      <th>Điểm</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>
-                        <img src="" alt="">Blackburn
-                      </td>
-                      <td>40</td>
-                      <td>40</td>
-                      <td>4</td>
-                      <td>4</td>
-                      <td>4</td>
-                      <td>4</td>
-                      <td>4</td>
-                      <td>4</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <table>
-
-              </table>
-
             </div>
           </div>
         </div>
@@ -150,5 +434,7 @@
       </div><!-- end container -->
 
       </div><!-- end site -->
+  <script src="lib/jquery.min.js" ></script>
+  <script src="lib/main.js" ></script>
   </body>
 </html>
