@@ -161,7 +161,18 @@ thead{
   display: block;
   padding: 10px 5px;
 }
+.mb-main-tab{
+  width: 20%;
+  background-color: #AC1A2F;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
 
+}
+.mb-main-tab:hover{
+  background-color: #530D17;
+}
 @media (min-width: 1200px) {
   .main-container {
     width: 1170px !important;
@@ -201,6 +212,12 @@ thead{
     background-color: #AC1A2F !important;
     color: white;
   }
+  .match-info-thead{
+    cursor: pointer;
+  }
+  .main-title-name{
+    cursor: pointer;
+  }
 }
 /* jquery class */
 .dark-red{
@@ -210,9 +227,7 @@ thead{
   background-color: #AC1A2F !important;
   color: white;
 }
-.match-info-thead{
-  cursor: pointer;
-}
+
 .icon-full-tbody{
   border-top: none !important;
 }
@@ -223,9 +238,7 @@ thead{
   padding: 0 !important;
   color: white;
 }
-.main-title-name{
-  cursor: pointer;
-}
+
 .main-title-name:hover{
   background-color: #e7e7e7;
 }
