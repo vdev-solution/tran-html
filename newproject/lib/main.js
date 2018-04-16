@@ -39,6 +39,7 @@ $(document).ready(function(){
 
   $('.bxh-icon-tbody').on('click',(e)=>{
     $('.all-icon-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.bxh-icon-tbody')).removeClass('dark-red');
+    $('.full-icon-mb-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.bxh-icon-tbody')).removeClass('dark-red');
     $(e.currentTarget).closest('.main-tbody').find('.bxh-icon-tbody').toggleClass('dark-red');
 
     $('.bxh-icon').removeClass('dark-red');
@@ -49,6 +50,8 @@ $(document).ready(function(){
 
 
   $('.ds-icon-tbody').on('click',(e)=>{
+    $('.all-icon-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.ds-icon-tbody')).removeClass('dark-red');
+    $('.full-icon-mb-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.ds-icon-tbody')).removeClass('dark-red');
     $(e.currentTarget).closest('.main-tbody').find('.ds-icon-tbody').toggleClass('dark-red');
 
     $('.bxh-icon').removeClass('dark-red');
@@ -60,6 +63,8 @@ $(document).ready(function(){
 
 
   $('.tk-icon-tbody').on('click',(e)=>{
+    $('.full-icon-mb-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.tk-icon-tbody')).removeClass('dark-red');
+    $('.all-icon-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.tk-icon-tbody')).removeClass('dark-red');
     $(e.currentTarget).closest('.main-tbody').find('.tk-icon-tbody').toggleClass('dark-red');
 
     $('.bxh-icon').removeClass('dark-red');
@@ -73,6 +78,8 @@ $(document).ready(function(){
 
 
   $('.tt-icon-tbody').on('click',(e)=>{
+    $('.full-icon-mb-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.tt-icon-tbody')).removeClass('dark-red');
+    $('.all-icon-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.tt-icon-tbody')).removeClass('dark-red');
     $(e.currentTarget).closest('.main-tbody').find('.tt-icon-tbody').toggleClass('dark-red');
 
     $('.bxh-icon').removeClass('dark-red');
@@ -86,6 +93,8 @@ $(document).ready(function(){
 
 
   $('.ct-icon-tbody').on('click',(e)=>{
+    $('.full-icon-mb-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.ct-icon-tbody')).removeClass('dark-red');
+    $('.all-icon-tbody').children().not($(e.currentTarget).closest('.main-tbody').find('.ct-icon-tbody')).removeClass('dark-red');
     $(e.currentTarget).closest('.main-tbody').find('.ct-icon-tbody').toggleClass('dark-red');
 
     $('.bxh-icon').removeClass('dark-red');
@@ -101,6 +110,35 @@ $(document).ready(function(){
     $(e.currentTarget).closest('.main-tbody').children('.icon-mb-tbody').toggleClass('d-none');
     $('.icon-mb-tbody').not($(e.currentTarget).closest('.main-tbody').children('.icon-mb-tbody')).addClass('d-none');
     $('.mb-icon').addClass('d-none');
-  })
+  });
+
+
+  /*Thong ke function*/
+  let $tkleftVal = $('.tk-left');
+  let $tkrightVal = $('.tk-right');
+  for (let i = 0;i<$tkleftVal.length;i++){
+    let $numL = parseInt($($tkleftVal[i]).html());
+    let $numR = parseInt($($tkrightVal[i]).html());
+    let $sum = $numL + $numR;
+    let lW = ($numL/$sum)*100 + '%';
+    let rW = ($numR/$sum)*100 + '%';
+    if ($numL==0 || $numR==0){
+      if ($numL==0 && $numR==0){
+        $($tkleftVal[i]).css({'width':'50%'});
+        $($tkrightVal[i]).css({'width':'50%'});
+      }else if ($numL==0){
+        $($tkleftVal[i]).css({'display':'none'});
+        $($tkrightVal[i]).css({'width':rW});
+      } else {
+        $($tkrightVal[i]).css({'display':'none'});
+        $($tkleftVal[i]).css({'width':lW});
+      }
+    } else {
+      $($tkleftVal[i]).css({'width':lW});
+      $($tkrightVal[i]).css({'width':rW});
+    }
+  }
+  /*end thong ke*/
+
 
 });
